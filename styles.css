@@ -1,22 +1,48 @@
 body {
-    background-color: lightblue;
-    margin: 0;
-    
+    background-color: white;
 }
 
 .main-container {
-    border: 1px solid red;
-    height: 100%;
+    border: 1px solid ;
+    width:850px;
+    height:450px;
+    background-image: url(space.jpg);
+    background-size: 850px 450px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
 }
 
-main {
-    border: 2px solid gold;
-    flex: 1;
+.sub-container {
+    width: 850px;
+    height: 324px;
+    background-color: lightgray;
+    display:flex;
+    flex-flow: row wrap;
 }
 
-section {
-    border: 2px solid gold;
-    flex: 1;
+h1 {
+    color: white;
+    margin:0px;
+    padding:0px;
+    
 }
+
+section  {
+    /* border: 2px solid gold; */
+    width:270px;
+    height:324px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
